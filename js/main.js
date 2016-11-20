@@ -51,7 +51,8 @@ resetButton.addEventListener("click", function(){
   // uppdatera färger
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
-  h1.style.background = "#232323";
+  h1.style.background = "steelblue";
+  messageDisplay.textContent = "";
   //
   for (var i=0;i<squares.length;i++){
     // add initial colors
